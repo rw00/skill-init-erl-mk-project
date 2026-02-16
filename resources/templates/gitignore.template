@@ -1,0 +1,16 @@
+# Erlang.mk
+ebin/
+deps/
+*.beam
+*.plt
+.erlang.mk/
+erlang.mk
+_build/
+rel/
+_rel/
+{{project_name}}.d
+logs/
+.ct_log/
+cover/
+
+.DS_Store

@@ -1,0 +1,7 @@
+PROJECT = {{project_name}}
+PROJECT_DESCRIPTION = {{project_description}}
+PROJECT_VERSION = 0.1.0
+
+TEST_DEPS = meck
+
+include erlang.mk

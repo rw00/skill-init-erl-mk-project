@@ -1,0 +1,13 @@
+{application, {{project_name}}, [
+	{description, "{{project_description}}"},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{mod, {{{project_name}}_app, []}},
+	{env, []}
+]}.
